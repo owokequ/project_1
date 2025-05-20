@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 200px;
+}
+
+ul{
+    margin: 40px;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 105px;
+}
+
+li{
+    display: inline;
+    margin: 150px;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+a{
+    color: rgb(244, 138, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+li:last-child{
+    margin-right: 0px;
+}
+
+nav{
+    margin-bottom: 10px;
+}
+
+.section-img-taffik {
+    width: 100%;
+    height: 100px;
+    background: url(../img/Самый\ крутой\ балбес!.png) center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.section-opisanie{
+    margin-left: 190px;
+    margin-right: 150px;
+}
+
+.opisanie-1 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.opisanie-1-img {
+    width: 380px;
+    border-radius: 10%;
+    border: 4px solid black;
+}
+
+.img-opisanie-1-txt{
+    margin-left: 50px;
+    width: 700px;
+    font-size: 24px;
+    text-align: left;
+
+}
+
+.opisanie-2{
+    display: flex;
+}
+
+.opisanie-2-img {
+    width: 380px;
+    border-radius: 10%;
+    border: 4px solid black;
+}
+
+.opisanie-2-txt{
+    margin-right: 50px;
+    width: 700px;
+    font-size: 24px;
+    text-align: left;
+
+}
